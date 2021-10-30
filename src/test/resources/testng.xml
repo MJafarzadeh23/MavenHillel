@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="My First Test Suite">
+    <test name="Calculator">
+        <classes>
+            <class name="TestNgDemoTests.CalculatorTest"/>
+        </classes>
+    </test> <!-- Test -->
+
+    <test name="IsLeapYear">
+        <classes>
+            <class name="TestNgDemoTests.IsLeapYearTest"/>
+        </classes>
+    </test> <!-- Test -->
+
+    <test name="ReverseString">
+        <classes>
+            <class name="TestNgDemoTests.ReverseStringTest"/>
+        </classes>
+    </test> <!-- Test -->
+
+    <test name="SunMinMaxArrayElements">
+        <classes>
+            <class name="TestNgDemoTests.SumMinMaxArrayElemTest"/>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->

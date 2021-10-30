@@ -1,1 +1,6 @@
-CalculatorTest.class
+TestNgDemoTests\IsLeapYearTest.class
+UIDemoTests\SeleniumDevTest.class
+TestNgDemoTests\ReverseStringTest.class
+TestNgDemoTests\CalculatorTest.class
+TestNgDemoTests\SumMinMaxArrayElemTest.class
+TestNgDemoTests\AdditionalTest.class

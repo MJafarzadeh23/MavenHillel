@@ -1,25 +1,232 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="17" passed="17" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-10-20T20:56:25 EEST" name="CalculatorTest" finished-at="2021-10-20T20:56:25 EEST" duration-ms="47">
+  <suite started-at="2021-10-30T11:55:43 EEST" name="My First Test Suite" finished-at="2021-10-30T11:55:43 EEST" duration-ms="125">
     <groups>
     </groups>
-    <test started-at="2021-10-20T20:56:25 EEST" name="Command line test" finished-at="2021-10-20T20:56:25 EEST" duration-ms="47">
-      <class name="CalculatorTest">
-        <test-method signature="testSum()[pri:0, instance:CalculatorTest@1700915]" started-at="2021-10-20T20:56:25 EEST" name="testSum" finished-at="2021-10-20T20:56:25 EEST" duration-ms="16" status="PASS">
+    <test started-at="2021-10-30T11:55:43 EEST" name="Calculator" finished-at="2021-10-30T11:55:43 EEST" duration-ms="47">
+      <class name="TestNgDemoTests.CalculatorTest">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:TestNgDemoTests.CalculatorTest@51dcb805]" started-at="2021-10-30T11:55:43 EEST" name="beforeTest" finished-at="2021-10-30T11:55:43 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="testSum()[pri:0, instance:TestNgDemoTests.CalculatorTest@51dcb805]" started-at="2021-10-30T11:55:43 EEST" name="testSum" finished-at="2021-10-30T11:55:43 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSum -->
-        <test-method signature="testSum2()[pri:0, instance:CalculatorTest@1700915]" started-at="2021-10-20T20:56:25 EEST" name="testSum2" finished-at="2021-10-20T20:56:25 EEST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:TestNgDemoTests.CalculatorTest@51dcb805]" started-at="2021-10-30T11:55:43 EEST" name="afterTest" finished-at="2021-10-30T11:55:43 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testSum2 -->
-        <test-method signature="testSum1()[pri:0, instance:CalculatorTest@1700915]" started-at="2021-10-20T20:56:25 EEST" name="testSum1" finished-at="2021-10-20T20:56:25 EEST" duration-ms="0" status="PASS">
+        </test-method> <!-- afterTest -->
+        <test-method signature="testSumWithDataProvider(int,int,int)[pri:0, instance:TestNgDemoTests.CalculatorTest@51dcb805]" started-at="2021-10-30T11:55:43 EEST" name="testSumWithDataProvider" data-provider="sumTestDataProvider" finished-at="2021-10-30T11:55:43 EEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSumWithDataProvider -->
+        <test-method signature="testSumWithDataProvider(int,int,int)[pri:0, instance:TestNgDemoTests.CalculatorTest@51dcb805]" started-at="2021-10-30T11:55:43 EEST" name="testSumWithDataProvider" data-provider="sumTestDataProvider" finished-at="2021-10-30T11:55:43 EEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSumWithDataProvider -->
+        <test-method signature="testSumWithDataProvider(int,int,int)[pri:0, instance:TestNgDemoTests.CalculatorTest@51dcb805]" started-at="2021-10-30T11:55:43 EEST" name="testSumWithDataProvider" data-provider="sumTestDataProvider" finished-at="2021-10-30T11:55:43 EEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSumWithDataProvider -->
+        <test-method signature="testSum1()[pri:0, instance:TestNgDemoTests.CalculatorTest@51dcb805]" started-at="2021-10-30T11:55:43 EEST" name="testSum1" finished-at="2021-10-30T11:55:43 EEST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSum1 -->
-      </class> <!-- CalculatorTest -->
-    </test> <!-- Command line test -->
-  </suite> <!-- CalculatorTest -->
+        <test-method signature="testSum2()[pri:0, instance:TestNgDemoTests.CalculatorTest@51dcb805]" started-at="2021-10-30T11:55:43 EEST" name="testSum2" finished-at="2021-10-30T11:55:43 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSum2 -->
+      </class> <!-- TestNgDemoTests.CalculatorTest -->
+    </test> <!-- Calculator -->
+    <test started-at="2021-10-30T11:55:43 EEST" name="IsLeapYear" finished-at="2021-10-30T11:55:43 EEST" duration-ms="0">
+      <class name="TestNgDemoTests.IsLeapYearTest">
+        <test-method signature="testLeapYear1()[pri:0, instance:TestNgDemoTests.IsLeapYearTest@7e5afaa6]" started-at="2021-10-30T11:55:43 EEST" name="testLeapYear1" finished-at="2021-10-30T11:55:43 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLeapYear1 -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:TestNgDemoTests.IsLeapYearTest@7e5afaa6]" started-at="2021-10-30T11:55:43 EEST" name="afterTest" finished-at="2021-10-30T11:55:43 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method signature="testLeapYear2()[pri:0, instance:TestNgDemoTests.IsLeapYearTest@7e5afaa6]" started-at="2021-10-30T11:55:43 EEST" name="testLeapYear2" finished-at="2021-10-30T11:55:43 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLeapYear2 -->
+        <test-method signature="testLeapYear3()[pri:0, instance:TestNgDemoTests.IsLeapYearTest@7e5afaa6]" started-at="2021-10-30T11:55:43 EEST" name="testLeapYear3" finished-at="2021-10-30T11:55:43 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLeapYear3 -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:TestNgDemoTests.IsLeapYearTest@7e5afaa6]" started-at="2021-10-30T11:55:43 EEST" name="beforeTest" finished-at="2021-10-30T11:55:43 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+      </class> <!-- TestNgDemoTests.IsLeapYearTest -->
+    </test> <!-- IsLeapYear -->
+    <test started-at="2021-10-30T11:55:43 EEST" name="ReverseString" finished-at="2021-10-30T11:55:43 EEST" duration-ms="0">
+      <class name="TestNgDemoTests.ReverseStringTest">
+        <test-method signature="testReverseStrWithDataProvider(java.lang.String,java.lang.String)[pri:0, instance:TestNgDemoTests.ReverseStringTest@53fdffa1]" started-at="2021-10-30T11:55:43 EEST" name="testReverseStrWithDataProvider" data-provider="reverseStrTestDataProvider" finished-at="2021-10-30T11:55:43 EEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Hillel]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[lellih]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testReverseStrWithDataProvider -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:TestNgDemoTests.ReverseStringTest@53fdffa1]" started-at="2021-10-30T11:55:43 EEST" name="afterTest" finished-at="2021-10-30T11:55:43 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:TestNgDemoTests.ReverseStringTest@53fdffa1]" started-at="2021-10-30T11:55:43 EEST" name="beforeTest" finished-at="2021-10-30T11:55:43 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="testReverseStrWithDataProvider(java.lang.String,java.lang.String)[pri:0, instance:TestNgDemoTests.ReverseStringTest@53fdffa1]" started-at="2021-10-30T11:55:43 EEST" name="testReverseStrWithDataProvider" data-provider="reverseStrTestDataProvider" finished-at="2021-10-30T11:55:43 EEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[level]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[level]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testReverseStrWithDataProvider -->
+        <test-method signature="testReverseStrWithDataProvider(java.lang.String,java.lang.String)[pri:0, instance:TestNgDemoTests.ReverseStringTest@53fdffa1]" started-at="2021-10-30T11:55:43 EEST" name="testReverseStrWithDataProvider" data-provider="reverseStrTestDataProvider" finished-at="2021-10-30T11:55:43 EEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[123456789]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[987654321]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testReverseStrWithDataProvider -->
+        <test-method signature="testReverseStrWithDataProvider(java.lang.String,java.lang.String)[pri:0, instance:TestNgDemoTests.ReverseStringTest@53fdffa1]" started-at="2021-10-30T11:55:43 EEST" name="testReverseStrWithDataProvider" data-provider="reverseStrTestDataProvider" finished-at="2021-10-30T11:55:43 EEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[java]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[avaj]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testReverseStrWithDataProvider -->
+      </class> <!-- TestNgDemoTests.ReverseStringTest -->
+    </test> <!-- ReverseString -->
+    <test started-at="2021-10-30T11:55:43 EEST" name="SunMinMaxArrayElements" finished-at="2021-10-30T11:55:43 EEST" duration-ms="0">
+      <class name="TestNgDemoTests.SumMinMaxArrayElemTest">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:TestNgDemoTests.SumMinMaxArrayElemTest@6da21078]" started-at="2021-10-30T11:55:43 EEST" name="beforeSuite" finished-at="2021-10-30T11:55:43 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:TestNgDemoTests.SumMinMaxArrayElemTest@6da21078]" started-at="2021-10-30T11:55:43 EEST" name="afterSuite" finished-at="2021-10-30T11:55:43 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:TestNgDemoTests.SumMinMaxArrayElemTest@6da21078]" started-at="2021-10-30T11:55:43 EEST" name="beforeTest" finished-at="2021-10-30T11:55:43 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="testSumMinMaxArray1()[pri:0, instance:TestNgDemoTests.SumMinMaxArrayElemTest@6da21078]" started-at="2021-10-30T11:55:43 EEST" name="testSumMinMaxArray1" finished-at="2021-10-30T11:55:43 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSumMinMaxArray1 -->
+        <test-method signature="testSumMinMaxArray3()[pri:0, instance:TestNgDemoTests.SumMinMaxArrayElemTest@6da21078]" started-at="2021-10-30T11:55:43 EEST" name="testSumMinMaxArray3" finished-at="2021-10-30T11:55:43 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSumMinMaxArray3 -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:TestNgDemoTests.SumMinMaxArrayElemTest@6da21078]" started-at="2021-10-30T11:55:43 EEST" name="afterTest" finished-at="2021-10-30T11:55:43 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method signature="testSumMinMaxArray2()[pri:0, instance:TestNgDemoTests.SumMinMaxArrayElemTest@6da21078]" started-at="2021-10-30T11:55:43 EEST" name="testSumMinMaxArray2" finished-at="2021-10-30T11:55:43 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSumMinMaxArray2 -->
+        <test-method signature="testSumMinMaxArray4()[pri:0, instance:TestNgDemoTests.SumMinMaxArrayElemTest@6da21078]" started-at="2021-10-30T11:55:43 EEST" name="testSumMinMaxArray4" finished-at="2021-10-30T11:55:43 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSumMinMaxArray4 -->
+      </class> <!-- TestNgDemoTests.SumMinMaxArrayElemTest -->
+    </test> <!-- SunMinMaxArrayElements -->
+  </suite> <!-- My First Test Suite -->
 </testng-results>
