@@ -24,8 +24,8 @@ public class BaseBrowserTest {
         wait = new WebDriverWait(driver, Duration.ofSeconds(180));
     }
 
-    @AfterTest
+    /*@AfterTest
     public void tearDown() {
         driver.quit();
-    }
+    }*/
 }
