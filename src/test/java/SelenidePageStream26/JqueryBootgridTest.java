@@ -12,7 +12,6 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 public class JqueryBootgridTest {
-
     //protected WebDriver driver;
     JqueryBootgridMainPage mainPage = new JqueryBootgridMainPage();
 

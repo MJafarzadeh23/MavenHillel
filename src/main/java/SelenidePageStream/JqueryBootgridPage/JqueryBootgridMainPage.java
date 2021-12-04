@@ -62,18 +62,6 @@ public class JqueryBootgridMainPage {
         Assert.assertTrue(tableRowsNumber.get(0).getAttribute("data-row-id").contains(idNumber));
     }
 
-    // unnecessary
-   /* public ArrayList<String> sortDateTimeObject() throws InterruptedException {
-        ArrayList<String> dateTimeList = (ArrayList<String>) receivedColumnData().stream()
-                .map(e -> e.getText()).sorted(Comparator.naturalOrder())
-                .collect(Collectors.toList());
-        System.out.println("Date & Time List After Sort");
-        for(String dateStr : dateTimeList) {
-            System.out.println(dateStr);
-        }
-        return dateTimeList;
-    }*/
-
     public boolean isReceivedColumnSorted(ElementsCollection columnDataList) {
         List<String> elementsCollectionToList = columnDataList
                 .stream()
