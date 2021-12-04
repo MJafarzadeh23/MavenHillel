@@ -14,11 +14,6 @@ public class RozetkaProductListingPageSelenide {
 
     private ElementsCollection productsContainerList = $$x("//li[contains(@class,'catalog-grid__cell')]");
 
-
-
-
-
-
     //a method that will return List<Integer> of all products' prices
     public List<Integer> productsPricesList() throws InterruptedException {
         List<Integer> productsPrices = receivedColumnData().stream()
