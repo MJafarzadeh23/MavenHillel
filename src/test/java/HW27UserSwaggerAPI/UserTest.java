@@ -24,7 +24,6 @@ public class UserTest extends ObjSetUp {
 
     @Test
     public void addNewUserObj() {
-        setUp();
         UserSwagger targetUser = new UserSwagger(id, userName, firstName, lastName, email, password, phone, userStatus);
 
         Response createdUserResponse = RestAssured.given()
@@ -41,7 +40,6 @@ public class UserTest extends ObjSetUp {
 
     @Test
     public void addNewUserBuilder() {
-        setUp();
         UserModel targetUser = UserModel.builder()
                 .id(id)
                 .username(userName)
@@ -61,7 +59,6 @@ public class UserTest extends ObjSetUp {
 
     @Test
     public void deleteAddedUserBuilder() {
-        setUp();
         UserModel targetUser = UserModel.builder()
                 .id(id)
                 .username(userName).build();
@@ -79,7 +76,6 @@ public class UserTest extends ObjSetUp {
 
     @Test
     public void updateAddedUserBuilder() {
-        setUp();
         UserModel targetUser = UserModel.builder()
                 .id(id)
                 .username(userName)
