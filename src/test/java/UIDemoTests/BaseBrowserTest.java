@@ -33,8 +33,8 @@ public class BaseBrowserTest {
         softAssert = new SoftAssert();
     }
 
-    /*@AfterTest
+    @AfterTest
     public void tearDown() {
         driver.quit();
-    }*/
+    }
 }

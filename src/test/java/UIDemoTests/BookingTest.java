@@ -15,6 +15,7 @@ public class BookingTest extends BaseBrowserTest {
     String url = "https://www.booking.com";
     String destination = "London";
 
+    // test valid for US format
     @Test
     public void checkSearch() {
         String checkInDateGiven = "30";
@@ -75,7 +76,7 @@ public class BookingTest extends BaseBrowserTest {
             //click search button
             WebElement searchButton = driver.findElement(By.xpath("//button[@type='submit']"));
             searchButton.click();
-            if (driver.findElement(By.xpath("//div[@data-component='search/dates/dates-errors']//div[@class='fe_banner__message ']")).isDisplayed()) {
+            if (driver.findElement(By.xpath("//div[@data-component='search/dates/dates-errors']//div[@class='fe_banner__message ']")).isEnabled()) {
                 throw new Exception("Reservations longer than 30 (or 45 or else) nights are not possible.");
             }
         } catch (Exception e) {
